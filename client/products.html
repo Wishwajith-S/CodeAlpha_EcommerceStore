@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            ShopEasy
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li id="userInfo">
+                <a href="login.html">Login</a>
+            </li>
+        </ul>
+
+    </nav>
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Welcome To ShopEasy
+        </h1>
+
+        <p>
+            Discover the best products at affordable prices
+        </p>
+
+        <a href="#productsContainer">
+            Shop Now
+        </a>
+
+    </div>
+
+</section>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Best Gadgets For You</h1>
+
+            <p>
+                Discover amazing products at affordable prices.
+            </p>
+
+            <button>Shop Now</button>
+
+        </div>
+
+    </section>
+    <!-- SEARCH BAR -->
+
+<div class="search-container">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search products..."
+    >
+
+</div>
+<!-- CATEGORY FILTER -->
+
+<div class="category-container">
+
+    <button onclick="filterProducts('all')">
+        All
+    </button>
+
+    <button onclick="filterProducts('electronics')">
+        Electronics
+    </button>
+
+    <button onclick="filterProducts('fashion')">
+        Fashion
+    </button>
+
+    <button onclick="filterProducts('shoes')">
+        Shoes
+    </button>
+
+    <button onclick="filterProducts('accessories')">
+        Accessories
+    </button>
+
+</div>
+
+    <!-- PRODUCTS -->
+
+    <h1 class="title">Our Products</h1>
+
+    <div class="products-container" id="productsContainer">
+
+    </div>
+
+    <script src="./js/products.js"></script>
+    <!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h2>ShopEasy</h2>
+
+        <p>
+            Your trusted ecommerce platform for quality products.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 ShopEasy. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
