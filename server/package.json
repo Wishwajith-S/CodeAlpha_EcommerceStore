@@ -4,8 +4,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server/server.js"
-}
+    "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
