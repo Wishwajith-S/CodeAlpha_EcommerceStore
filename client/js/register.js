@@ -23,7 +23,7 @@ registerForm.addEventListener(
             // SEND DATA TO BACKEND
 
             const response = await fetch(
-                "http://localhost:5000/api/auth/register",
+                "https://shopeasy-backend-5km3.onrender.com/api/products",
                 {
                     method: "POST",
 

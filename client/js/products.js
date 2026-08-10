@@ -50,7 +50,7 @@ async function loadProducts() {
     try {
 
         const response = await fetch(
-            "http://localhost:5000/api/products"
+            "https://shopeasy-backend-5km3.onrender.com/api/products"
         );
 
         const products = await response.json();

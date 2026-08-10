@@ -17,7 +17,7 @@ async function loadProduct(){
     try{
 
         const response = await fetch(
-            `http://localhost:5000/api/products/${productId}`
+            `https://shopeasy-backend-5km3.onrender.com/api/products/${productId}`
         );
 
         const product = await response.json();

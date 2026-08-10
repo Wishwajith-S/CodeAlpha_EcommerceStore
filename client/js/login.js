@@ -20,7 +20,7 @@ loginForm.addEventListener(
             // SEND LOGIN REQUEST
 
             const response = await fetch(
-                "http://localhost:5000/api/auth/login",
+                "https://shopeasy-backend-5km3.onrender.com/api/products",
                 {
                     method: "POST",
 
