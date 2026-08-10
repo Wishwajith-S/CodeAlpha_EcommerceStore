@@ -665,3 +665,169 @@ body{
     }
 
 }
+
+/* ========================= */
+/* LOGIN PAGE */
+/* ========================= */
+
+.auth-container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    padding: 20px;
+}
+
+
+/* LOGIN BOX */
+
+.auth-form {
+    width: 100%;
+    max-width: 420px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+
+/* SHOP EASY TITLE */
+
+.auth-form h1 {
+    margin: 0;
+
+    color: #667eea;
+
+    font-size: 30px;
+}
+
+
+/* LOGIN TITLE */
+
+.auth-form h2 {
+    margin: 8px 0 25px;
+
+    color: #333;
+
+    font-size: 22px;
+}
+
+
+/* INPUTS */
+
+.auth-form input {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 13px 15px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+
+/* INPUT FOCUS */
+
+.auth-form input:focus {
+    border-color: #667eea;
+
+    box-shadow:
+        0 0 0 3px rgba(
+            102,
+            126,
+            234,
+            0.15
+        );
+}
+
+
+/* LOGIN BUTTON */
+
+.auth-form button {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #667eea;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.auth-form button:hover {
+    background: #5568d8;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 15px rgba(
+            102,
+            126,
+            234,
+            0.35
+        );
+}
+
+
+/* REGISTER TEXT */
+
+.auth-form p {
+    margin-top: 22px;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* REGISTER LINK */
+
+.auth-form a {
+    color: #667eea;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+.auth-form a:hover {
+    text-decoration: underline;
+}

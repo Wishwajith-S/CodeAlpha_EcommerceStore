@@ -1,0 +1,12 @@
+{
+  "name": "codealpha_ecommercestore",
+  "version": "1.0.0",
+  "description": "CodeAlpha E-commerce Store",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "node server/server.js",
+    "start": "node server/server.js"
+  },
+  "author": "Wishwajith S",
+  "license": "ISC"
+}
